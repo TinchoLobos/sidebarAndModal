@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sidebarAndModal/static/css/main.c1b9f802.css",
+    "main.js": "/sidebarAndModal/static/js/main.3a09b134.js",
+    "static/media/pexels-kasuma-437160.jpg": "/sidebarAndModal/static/media/pexels-kasuma-437160.12892e8035917d1b43e7.jpg",
+    "static/media/logo.svg": "/sidebarAndModal/static/media/logo.54b18dd3268d0ea29040a4ee5e16d415.svg",
+    "index.html": "/sidebarAndModal/index.html",
+    "main.c1b9f802.css.map": "/sidebarAndModal/static/css/main.c1b9f802.css.map",
+    "main.3a09b134.js.map": "/sidebarAndModal/static/js/main.3a09b134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b9f802.css",
+    "static/js/main.3a09b134.js"
+  ]
+}
