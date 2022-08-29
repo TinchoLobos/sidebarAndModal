@@ -3,6 +3,7 @@ import { FaTimes } from 'react-icons/fa'
 import {useGlobalContext } from './context'
 
 const Modal = () => {
+  const {Lenguage} = useGlobalContext();
 const {isModalOpen,closeModal} = useGlobalContext();
 
  // ClassName: show-modal

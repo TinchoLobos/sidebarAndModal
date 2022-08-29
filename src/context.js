@@ -20,15 +20,26 @@ const closeModal = () =>{
 setIsModalOpen(false)
 }
 
+const [Lenguage,SetLenguage] = useState (true)
+
+const ChangeLenguage = () =>{
+  SetLenguage(!Lenguage)
+}
+
+
+
    return( 
    <AppContext.Provider
    value={
    {isModalOpen,
    isSidebarOpen,
+   Lenguage,
+   SetLenguage,
    openSideBar,
    closeSideBar,
    openModal,
-   closeModal}
+   closeModal,
+ChangeLenguage}
    }>
    {children}</AppContext.Provider>
    )

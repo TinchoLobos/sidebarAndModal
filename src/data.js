@@ -1,48 +1,104 @@
 import React from 'react';
+import {Link} from "react-scroll";
 import {
-  FaBehance,
   FaFacebook,
-  FaLinkedin,
-  FaTwitter,
-  FaSketch,
+  FaPlane,
   FaHome,
-  FaUserFriends,
-  FaFolderOpen,
-  FaCalendarAlt,
-  FaWpforms,
+  FaInstagram,
+  FaParachuteBox,
+  FaFlagUsa,
+  FaFlag,
+  FaRegFlag,
+  FaHelicopter,
 } from 'react-icons/fa';
+import{
+  GiParachute,
+  GiAirBalloon,
+} from 'react-icons/gi';
+import{
+  GrContact
+} from 'react-icons/gr';
+
 export const links = [
   {
     id: 1,
     url: '/',
-    text: 'home',
-    icon: <FaHome />,
+    text: 'Inicio',
+    text2:'English text',
+    icon: <FaHome />, 
   },
   {
     id: 2,
     url: '/team',
-    text: 'team',
-    icon: <FaUserFriends />,
+    text: 'Vuelos en Avioneta',
+    text2:'English text',
+    icon: <FaPlane />
   },
   {
     id: 3,
     url: '/projects',
-    text: 'projects',
-    icon: <FaFolderOpen />,
+    text: 'Vuelos en parapente',
+    text2:'English text',
+    icon: <FaParachuteBox />
   },
   {
     id: 4,
     url: '/calendar',
-    text: 'calendar',
-    icon: <FaCalendarAlt />,
+    text: 'Paracaidismo',
+    text2:'English text',
+    icon: <GiParachute />
   },
   {
     id: 5,
     url: '/documents',
-    text: 'documents',
-    icon: <FaWpforms />,
+    text: 'Vuelos Globo',
+    text2:'English text',
+    icon: <GiAirBalloon />
   },
+   {
+    id: 6,
+    url: '/documents',
+    text: 'Vuelos Helicoptero',
+    text2:'English text',
+    icon: <FaHelicopter />
+  },
+    {
+    id: 7,
+    url: '/documents',
+    text: 'Vuelos en planeador',
+    text2:'English text',
+    icon: <FaPlane />,
+  },
+  {
+    id: 8,
+    url: '/documents',
+    text: 'Contacto',
+    text2:'English text',
+    icon: <GrContact />,
+  },
+
 ];
+
+export const idiomas = [
+  {
+    id: 1,
+    url: '/',
+    text: 'English',
+    icon: <FaFlagUsa />, 
+  },
+  {
+    id: 2,
+    url: '/team',
+    text: 'Portuges',
+    icon: <FaFlag />,
+  },
+  {
+    id: 3,
+    url: '/projects',
+    text: 'Español',
+    icon: <FaRegFlag />,
+  }
+]
 
 export const social = [
   {
@@ -53,21 +109,7 @@ export const social = [
   {
     id: 2,
     url: 'https://www.twitter.com',
-    icon: <FaTwitter />,
+    icon: <FaInstagram />,
   },
-  {
-    id: 3,
-    url: 'https://www.twitter.com',
-    icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaBehance />,
-  },
-  {
-    id: 5,
-    url: 'https://www.twitter.com',
-    icon: <FaSketch />,
-  },
+  
 ];

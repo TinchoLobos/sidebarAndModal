@@ -1,0 +1,30 @@
+
+.BackMenu {
+   position: fixed;
+   top: 2rem;
+   right: 1rem;
+   font-size:3.4rem;
+   height: 4rem;
+   width: 5rem;
+   background: transparent;
+   border-color: transparent;
+   color: var(--clr-red-dark);
+   transition: var(--transition);
+   cursor: pointer;
+   z-index: 1000;
+}
+
+.OneWhatsapp{
+   position: fixed;
+      bottom: 4.5rem;
+      right: 1rem;
+      font-size: 3.4rem;
+      height: 4rem;
+      width: 5rem;
+      background: transparent;
+      border-color: transparent;
+      color:#25d366;
+      transition: var(--transition);
+      cursor: pointer;
+      z-index: 1000;
+}
