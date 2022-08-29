@@ -24,7 +24,7 @@ import Home from './Home'
 function App() {
   return (<BrowserRouter>
       <Routes>
-        <Route path="/sidebarAndModal" element={<Home/>} />
+        <Route path="/github.io-sidebarAndModal.git" element={<Home/>} />
         <Route path="/sidebarAndModal/Globo" element={<Globo/>} />
         <Route path="/sidebarAndModal/Avioneta" element={<Avioneta/>} />
         <Route path="/sidebarAndModal/Helicoptero" element={<Helicoptero/>} />
