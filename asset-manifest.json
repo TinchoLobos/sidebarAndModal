@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/sidebarAndModal/static/css/main.c1b9f802.css",
-    "main.js": "/sidebarAndModal/static/js/main.3a09b134.js",
-    "static/media/pexels-kasuma-437160.jpg": "/sidebarAndModal/static/media/pexels-kasuma-437160.12892e8035917d1b43e7.jpg",
-    "static/media/logo.svg": "/sidebarAndModal/static/media/logo.54b18dd3268d0ea29040a4ee5e16d415.svg",
-    "index.html": "/sidebarAndModal/index.html",
-    "main.c1b9f802.css.map": "/sidebarAndModal/static/css/main.c1b9f802.css.map",
-    "main.3a09b134.js.map": "/sidebarAndModal/static/js/main.3a09b134.js.map"
+    "main.css": "/github.io-sidebarAndModal.git/static/css/main.8b8afe4d.css",
+    "main.js": "/github.io-sidebarAndModal.git/static/js/main.67b67f14.js",
+    "static/media/paracaidismo.jpg": "/github.io-sidebarAndModal.git/static/media/paracaidismo.62c010306fd3106e6e28.jpg",
+    "static/media/avion.jpg": "/github.io-sidebarAndModal.git/static/media/avion.4c8957ae00ef07781d9c.jpg",
+    "static/media/planeSimulator.jpg": "/github.io-sidebarAndModal.git/static/media/planeSimulator.8ec1933fa50fba6dd6da.jpg",
+    "static/media/nosotros.jpg": "/github.io-sidebarAndModal.git/static/media/nosotros.5d565f9ae312081cfd17.jpg",
+    "static/media/FONDO2.jpg": "/github.io-sidebarAndModal.git/static/media/FONDO2.7b4a466b2bb6e7c04c6f.jpg",
+    "static/media/hotAirBallon.jpg": "/github.io-sidebarAndModal.git/static/media/hotAirBallon.5fc907464e85ec3fb43a.jpg",
+    "static/media/planeador.jpg": "/github.io-sidebarAndModal.git/static/media/planeador.9407ba9e5a7509e84afb.jpg",
+    "static/media/LOGOPNGpng.png": "/github.io-sidebarAndModal.git/static/media/LOGOPNGpng.de13a484cd5f4b459df4.png",
+    "static/media/parapente2.jpg": "/github.io-sidebarAndModal.git/static/media/parapente2.cca8d73e8236ae64f14e.jpg",
+    "static/media/HELITRONADOR.jpg": "/github.io-sidebarAndModal.git/static/media/HELITRONADOR.073bd2c24eafb6422a6c.jpg",
+    "static/media/san martin (4).jpg": "/github.io-sidebarAndModal.git/static/media/san martin (4).0af4a2f3265b2bcf55c0.jpg",
+    "static/media/san martin (6).jpg": "/github.io-sidebarAndModal.git/static/media/san martin (6).3c89d0ba4325fb663e38.jpg",
+    "static/media/san martin (3).jpg": "/github.io-sidebarAndModal.git/static/media/san martin (3).792fe1dc98721cef26f5.jpg",
+    "static/media/ubicacionMaps.jpg": "/github.io-sidebarAndModal.git/static/media/ubicacionMaps.8b7eb2841d7c8db02168.jpg",
+    "static/media/piloto-comercial-3.jpg": "/github.io-sidebarAndModal.git/static/media/piloto-comercial-3.40569538912bc8990aff.jpg",
+    "static/media/carousel3.jpg": "/github.io-sidebarAndModal.git/static/media/carousel3.b0460196dc16fbf1e883.jpg",
+    "static/media/carousel1.jpg": "/github.io-sidebarAndModal.git/static/media/carousel1.a76b4181873737987734.jpg",
+    "static/media/competencias.jpg": "/github.io-sidebarAndModal.git/static/media/competencias.d5c2242da02add135ceb.jpg",
+    "static/media/ubicacion.jpg": "/github.io-sidebarAndModal.git/static/media/ubicacion.a22e42bb348f9d4d4d67.jpg",
+    "static/media/bangkok-private-jet-charter-by-gulfstream-g200-10.jpg": "/github.io-sidebarAndModal.git/static/media/bangkok-private-jet-charter-by-gulfstream-g200-10.485c4a96aa17f3d2619d.jpg",
+    "static/media/eeuu.png": "/github.io-sidebarAndModal.git/static/media/eeuu.e23409edfbf1dd1b95d4.png",
+    "static/media/carousel2.jpg": "/github.io-sidebarAndModal.git/static/media/carousel2.0cdfcf434e257ab5ed0f.jpg",
+    "static/media/profesores.jpg": "/github.io-sidebarAndModal.git/static/media/profesores.c836f4ace842f14b538d.jpg",
+    "static/media/spain.png": "/github.io-sidebarAndModal.git/static/media/spain.61b4fafec3d27d2e7af2.png",
+    "static/media/dualflag.jpg": "/github.io-sidebarAndModal.git/static/media/dualflag.fc6f0c8bea12be89e542.jpg",
+    "static/media/logo.svg": "/github.io-sidebarAndModal.git/static/media/logo.54b18dd3268d0ea29040a4ee5e16d415.svg",
+    "index.html": "/github.io-sidebarAndModal.git/index.html",
+    "main.8b8afe4d.css.map": "/github.io-sidebarAndModal.git/static/css/main.8b8afe4d.css.map",
+    "main.67b67f14.js.map": "/github.io-sidebarAndModal.git/static/js/main.67b67f14.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1b9f802.css",
-    "static/js/main.3a09b134.js"
+    "static/css/main.8b8afe4d.css",
+    "static/js/main.67b67f14.js"
   ]
 }
