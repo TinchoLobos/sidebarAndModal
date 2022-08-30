@@ -32,7 +32,7 @@ const Avioneta = () => {
   const {Lenguage} = useGlobalContext();
   return <>
   <main className='mainBackground1' id='Inicio'>
-<Link to='/github.io/sidebarAndModal.git'>
+<Link to='/TinchoLobos/sidebarAndModal.git'>
         <button className='BackMenu'><FaArrowAltCircleLeft/></button>
       </Link>
 <a href="https://api.whatsapp.com/send?phone=5492616520768&text=Hola, Nececito mas informacion!">
