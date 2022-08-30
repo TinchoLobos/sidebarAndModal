@@ -1,20 +1,20 @@
 import React from 'react'
-import './globo.css'
+import './paracaidismo.css'
 import { Link } from "react-router-dom";
 import {FaArrowAltCircleLeft,FaWhatsapp} from 'react-icons/fa'
 
 const Paracaidismo = () => {
   return (
-      <div>
+      <div className='background4'>
       <Link to='/github.io-sidebarAndModal.git'>
         <button className='BackMenu'><FaArrowAltCircleLeft/></button>
       </Link>
-       <a href="https://api.whatsapp.com/send?phone=5492616520768&text=Hola, Nececito mas informacion!">
+      <a href="https://api.whatsapp.com/send?phone=5492616520768&text=Hola, Nececito mas informacion!">
                       <div className="OneWhatsapp">
                        <FaWhatsapp style={{color:"green",fontSize:"4rem"}}/>
                      </div>
                   </a>
-      <h3 style={{textAlign:"center",marginTop:"2rem"}}>VUELOS PARACAIDISMO</h3>
+      <h3 className='mainTitle' style={{color:"white"}} >PARACAIDISMO</h3>
       </div>
   )
 }

@@ -394,12 +394,21 @@ Sidebar
 }
 
 .mainBackground{
-background-image: url("../src/Images/FONDO2.jpg");
+background-image: url("./Images/FONDO2.jpg");
 filter: brightness(-0.8);
 background-size: cover;
 background-position: center;
 max-height: 80vh;
 }
+
+.mainBackground1{
+background-image: url("./Images/avion.jpg");
+filter: brightness(-0.8);
+  background-size: cover;
+  background-position: center;
+  max-height: 80vh;
+}
+
 
 .mainLogo{
   width: 40rem;
@@ -411,7 +420,7 @@ max-height: 80vh;
 
 @media screen and (max-width: 676px) {
   .mainLogo {
-   width: 25rem;
+   width: 28rem;
   }
 }
 
@@ -476,4 +485,51 @@ color: rgb(214, 67, 67);
 
 .contactMain{
   margin-top: 1.4rem !important;
+}
+
+
+
+/* SECTION PAGES */
+
+.section{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.MainSectionDetail {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.DetailList{
+  margin: 0.7rem;
+  border: solid 1px red;
+  background-color: #b45555;
+  border-radius: 5px;
+}
+
+.DetailTitle{
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.DetailList p{
+  color: black
+}
+.DetailList section {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.MainCarousel{
+  max-width: 80vw !important;
 }

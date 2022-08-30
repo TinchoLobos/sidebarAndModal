@@ -28,3 +28,25 @@
       cursor: pointer;
       z-index: 1000;
 }
+ .mainLogo1{
+   text-align: center;
+   font-size: 3rem;
+   font-weight: bolder;
+   color: rgb(255, 255, 255) !important;
+ }
+
+.mainBackground2 {
+   background-image: url("../Images/hotAirBallon.jpg");
+   filter: brightness(25%);
+   background-size: cover;
+   background-position: center;
+   max-height: 100vh;
+}
+
+.background2{
+   background-image: url("../Images/hotAirBallon.jpg");
+      filter: brightness(0.9);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+}

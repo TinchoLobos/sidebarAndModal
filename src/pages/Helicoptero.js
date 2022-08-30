@@ -1,11 +1,11 @@
 import React from 'react'
-import './globo.css'
+import './helicoptero.css'
 import { Link } from "react-router-dom";
 import {FaArrowAltCircleLeft,FaWhatsapp} from 'react-icons/fa'
 
 const Helicoptero = () => {
   return (
-       <div>
+       <div className='background3'>
       <Link to='/github.io-sidebarAndModal.git'>
         <button className='BackMenu'><FaArrowAltCircleLeft/></button>
       </Link>
@@ -14,7 +14,7 @@ const Helicoptero = () => {
                        <FaWhatsapp style={{color:"green",fontSize:"4rem"}}/>
                      </div>
                   </a>
-      <h3 style={{textAlign:"center",marginTop:"2rem"}}>VUELOS EN HELICOPTERO</h3>
+      <h3 className='mainTitle' style={{color:"white"}}>VUELOS HELICOPTERO</h3>
       </div>
   )
 }

@@ -6,6 +6,7 @@ import {FaArrowAltCircleLeft,FaWhatsapp} from 'react-icons/fa'
 
 const Globo = () => {
   return (<div>
+  <div className='background2'>
       <Link to='/github.io-sidebarAndModal.git'>
         <button className='BackMenu'><FaArrowAltCircleLeft/></button>
       </Link>
@@ -14,8 +15,31 @@ const Globo = () => {
                        <FaWhatsapp style={{color:"green",fontSize:"4rem"}}/>
                      </div>
                   </a>
-      <h3 style={{textAlign:"center",marginTop:"2rem"}}>VUELOS EN GLOBO</h3>
+      <h3 className='mainTitle' style={{color:"white"}}>VUELOS EN GLOBO</h3>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
   )
 }
 

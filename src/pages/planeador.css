@@ -1,0 +1,53 @@
+.BackMenu {
+   position: fixed;
+   top: 2rem;
+   right: 1rem;
+   font-size: 3.4rem;
+   height: 4rem;
+   width: 5rem;
+   background: transparent;
+   border-color: transparent;
+   color: var(--clr-red-dark);
+   transition: var(--transition);
+   cursor: pointer;
+   z-index: 1000;
+}
+
+.OneWhatsapp {
+   position: fixed;
+   bottom: 4.5rem;
+   right: 1rem;
+   font-size: 3.4rem;
+   height: 4rem;
+   width: 5rem;
+   background: transparent;
+   border-color: transparent;
+   color: #25d366;
+   transition: var(--transition);
+   cursor: pointer;
+   z-index: 1000;
+}
+
+.mainLogo1 {
+   text-align: center;
+   font-size: 3rem;
+   
+   color: rgb(255, 255, 255) !important;
+}
+
+.mainBackground6 {
+   background-image: url("../Images/planeador.jpg");
+   filter: brightness(25%);
+   background-size: cover;
+   background-position: center;
+   max-height: 100vh;
+}
+
+.background6 {
+   background-image: url("../Images/planeador.jpg");
+   filter: brightness(0.9);
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+  
+}

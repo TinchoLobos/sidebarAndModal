@@ -12,7 +12,7 @@ import AppAcordion from './AppAcordion'
 import Carousele from './Carousele'
 import Us from './Us'
 import {useGlobalContext } from './context'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Avioneta from './pages/Avioneta'
 import Globo from './pages/Globo'
 import Helicoptero from './pages/Helicoptero'
@@ -20,9 +20,11 @@ import Paracaidismo from './pages/Paracaidismo'
 import Parapente from './pages/Parapente'
 import Planeador from './pages/Planeador'
 import Home from './Home'
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (<BrowserRouter>
+  
       <Routes>
         <Route path="/github.io-sidebarAndModal.git" element={<Home/>} />
         <Route path="/sidebarAndModal/Globo" element={<Globo/>} />
