@@ -24,9 +24,9 @@ import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (<BrowserRouter>
-  
+  <ScrollToTop/>
       <Routes>
-        <Route path="/github.io-sidebarAndModal.git" element={<Home/>} />
+        <Route path="/github.io/sidebarAndModal.git" element={<Home/>} />
         <Route path="/sidebarAndModal/Globo" element={<Globo/>} />
         <Route path="/sidebarAndModal/Avioneta" element={<Avioneta/>} />
         <Route path="/sidebarAndModal/Helicoptero" element={<Helicoptero/>} />
